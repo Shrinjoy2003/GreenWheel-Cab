@@ -1,0 +1,24 @@
+.bannerMiniContainer
+{
+    transform: translateY(-18rem);
+}
+.cropped-image
+{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://png.pngtree.com/background/20230524/original/pngtree-in-the-style-of-nature-inspired-installations-picture-image_2710493.jpg');
+    background-size: cover;
+    clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 100%);
+}
+
+.searchOlaButton
+{
+    box-sizing: border-box;
+    width: 282px;
+    text-align: left;
+    background-image: url('https://png.pngtree.com/background/20230524/original/pngtree-in-the-style-of-nature-inspired-installations-picture-image_2710493.jpg');
+    radial-gradient:(127.68% 2996.56% at 12.65% 127.68% , #000000 0%,#222222 100%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: none;
+}
